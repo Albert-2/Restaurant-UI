@@ -6,4 +6,11 @@
   .button {
     @apply text-white relative border-[none] after:transition-all after:duration-[0.75s] after:content-[''] after:h-6 after:absolute after:border-0 after:border-transparent after:w-0 after:border-b-[3px] after:border-b-[#CA9C5E] after:border-solid after:left-0 after:-bottom-0.5 hover:after:h-full hover:after:w-full;
   }
+  demo::after {
+    content: '';
+    background: url("images/image-from-rawpixel-id-2822722-png-874x1024.png");
+    left: 0px;
+    top: 0px;
+    position: absolute;
+  }
 }
