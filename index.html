@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="input.css" />
+    <title>Document</title>
+  </head>
+  <body class="overflow-x-hidden">
+    <header
+      class="border-[10px] border-[#CA9C5E] text-white w-full h-[100vh] grayscale-[20%] brightness-[70%]"
+      style="background: url(images/mainBack.avif) center/cover no-repeat fixed"
+    >
+      <div
+        class="flex items-center justify-between min-w-[90%] lg:w-[65%] lg:px-0 px-4 w-[100%] m-auto"
+      >
+        <img src="images/logo-white.png" class="w-[10%] min-w-[100px]" />
+        <div
+          class="menu md:bg-transparent bg-black lg:w-[50%] md:w-[65%] w-[250px] md:h-0 h-[100vh] md:static md:block flex items-start justify-center absolute right-[300%]"
+        >
+          <ul
+            class="flex md:flex-row flex-col md items-center justify-between font-bold text-xl md:h-0 h-[50vh] md:mt-0 mt-10"
+          >
+            <li>
+              <img
+                src="images/close.png"
+                class="md:hidden block close"
+                style="
+                  filter: invert(100%) sepia(1%) saturate(3%) hue-rotate(18deg)
+                    brightness(103%) contrast(100%);
+                "
+              />
+            </li>
+            <li class="md:text-white text-[#CA9C5E] hover:cursor-pointer">
+              Home
+            </li>
+            <li class="hover:cursor-pointer">About</li>
+            <li class="hover:cursor-pointer">Our Menus</li>
+            <li class="hover:cursor-pointer">Reservation</li>
+            <li class="hover:cursor-pointer">Contact</li>
+            <li class="hover:cursor-pointer">
+              <button
+                class="text-white border-2 border-white p-5 md:hidden block"
+              >
+                RESERVATION
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <div
+          class="icon grid md:grid-cols-3 grid-cols-4 grid-rows-1 md:gap-5 gap-5"
+        >
+          <img
+            src="images/facebook.png"
+            style="
+              filter: invert(100%) sepia(1%) saturate(3%) hue-rotate(18deg)
+                brightness(103%) contrast(100%);
+            "
+          />
+          <img
+            src="images/instagram.png"
+            style="
+              filter: invert(100%) sepia(1%) saturate(3%) hue-rotate(18deg)
+                brightness(103%) contrast(100%);
+            "
+          />
+          <img
+            src="images/tripadvisor.png"
+            style="
+              filter: invert(100%) sepia(1%) saturate(3%) hue-rotate(18deg)
+                brightness(103%) contrast(100%);
+            "
+          />
+          <img
+            src="images/main-menu.png"
+            class="md:hidden block open"
+            style="
+              filter: invert(100%) sepia(1%) saturate(3%) hue-rotate(18deg)
+                brightness(103%) contrast(100%);
+            "
+          />
+        </div>
+      </div>
+    </header>
+    <section
+      class="main-content absolute top-[30%] lg:left-[35%] md:left-[20%] left-[5%] text-center text-white flex flex-col items-center justify-center gap-5 lg:w-[30%] md:w-[60%] w-[90%] z-0"
+    >
+      <h5 class="text-xl">MORE FLAVOR FOR LESS</h5>
+      <h1 class="md:text-8xl text-6xl md:min-w-[50%] font-bold text-center">
+        Taste The Difference
+      </h1>
+      <p class="leading-7 text-xl">
+        When the going gets tough, the tough get grilling. Bringing heat to your
+        meat. No one can compete with our meat
+      </p>
+      <button
+        class="btn font-semibold border-t-2 border-b-2 border-[#CA9C5E] py-2 px-7 text-xl"
+      >
+        OUR MENUS
+      </button>
+    </section>
+    <img
+      src="images/rightLeaf.png"
+      class="absolute md:top-[80%] top-[90%] md:w-fit w-[35%]"
+    />
+    <img
+      src="images/homeLeft.png"
+      class="absolute md:top-[75%] top-[85%] right-0 md:w-fit w-[35%]"
+    />
+    <script src="./script.js"></script>
+  </body>
+</html>
