@@ -18,7 +18,7 @@
     >
       <img src="images/logo-white.png" class="w-[10%] min-w-[100px]" />
       <div
-        class="menu md:bg-transparent bg-black lg:w-[50%] md:w-[65%] w-[250px] md:h-0 h-[100vh] md:static md:block flex items-start justify-center absolute right-[300%] z-20"
+        class="menu md:bg-transparent bg-black lg:w-[50%] md:w-[65%] w-[250px] md:h-0 h-[100vh] md:static md:block flex items-start justify-center absolute right-[300%] z-40"
       >
         <ul
           class="flex md:flex-row flex-col md items-center justify-between font-bold text-xl md:h-0 h-[50vh] md:mt-0 mt-10"
@@ -104,11 +104,11 @@
     </section>
     <img
       src="images/rightLeaf.png"
-      class="absolute md:top-[80%] top-[90%] md:w-fit w-[35%]"
+      class="absolute md:top-[80%] top-[90%] md:w-fit w-[35%] z-30"
     />
     <img
       src="images/homeLeft.png"
-      class="absolute md:top-[75%] top-[85%] right-0 md:w-fit w-[35%]"
+      class="absolute md:top-[75%] top-[85%] right-0 md:w-fit w-[35%] z-30"
     />
     <section
       class="w-[100vw] h-fit bg-[#0b1517] flex flex-col items-center justify-center py-10 relative"
@@ -168,17 +168,11 @@
       </div>
     </section>
     <section class="menu bg-[#0b1517] text-white min-w-[65%]">
-      <h4
-        class="lg:text-xl text-lg text-center tracking-[3.5px]"
-      >
+      <h4 class="lg:text-xl text-lg text-center tracking-[3.5px]">
         MAKE FOOD, NOT WAR
       </h4>
-      <div
-        class="lg:text-7xl text-6xl text-center font-bold"
-      >
-        <h1
-          class="w-[65%] m-auto flex items-center justify-center gap-3"
-        >
+      <div class="lg:text-7xl text-6xl text-center font-bold">
+        <h1 class="w-[65%] m-auto flex items-center justify-center gap-3">
           <img
             src="images/noun_wavy-lines_1781282.png"
             style="width: auto; height: 20px"
@@ -191,18 +185,16 @@
         </h1>
       </div>
       <div
-        class="menu-container flex lg:flex-row flex-col items-start justify-center lg:w-[1000px] min-w- m-auto"
+        class="menu-container flex lg:flex-row flex-col items-start justify-center xl:w-[1200px] lg:w-[98%] m-auto"
       >
-        <div
-          class="left mx-auto w-[95%] flex-1 p-5 grid grid-cols-1 gap-5"
-        >
+        <div class="left mx-auto w-[95%] flex-1 p-5 grid grid-cols-1 gap-5">
           <h2 class="text-4xl font-semibold">Starters</h2>
-          <div
-            class="item text-[#CA9C5E] sm:flex items-center justify-between"
-          >
+          <div class="item text-[#CA9C5E] sm:flex items-center justify-between">
             <div class="item-left">
               <h2 class="text-2xl font-semibold">Salted Fried Chiken</h2>
-              <h4 class="text-white" class="text-white">Chicken / Olive Oil / Salt</h4>
+              <h4 class="text-white" class="text-white">
+                Chicken / Olive Oil / Salt
+              </h4>
             </div>
             <span class="font-bold text-xl text">&dollar;20</span>
           </div>
@@ -226,11 +218,11 @@
           </div>
           <div class="item border-2 rounded-md border-[#CA9C5E]">
             <div class="head bg-[#CA9C5E] font-semibold text-xl p-2">New</div>
-            <div class="special p-2 sm:flex items-center justify-between text-[#CA9C5E]">
+            <div
+              class="special p-2 sm:flex items-center justify-between text-[#CA9C5E]"
+            >
               <div class="item-left">
-                <h2 class="text-2xl font-semibold">
-                  Baked Potato Pizza
-                </h2>
+                <h2 class="text-2xl font-semibold">Baked Potato Pizza</h2>
                 <h4 class="text-white">Potato / Bread / Cheese</h4>
               </div>
               <span class="font-bold text-xl text">&dollar;20</span>
@@ -260,15 +252,15 @@
             <span class="font-bold text-xl text">&dollar;20</span>
           </div>
         </div>
-        <div
-          class="right mx-auto w-[95%] flex-1 p-5 grid grid-cols-1 gap-5"
-        >
+        <div class="right mx-auto w-[95%] flex-1 p-5 grid grid-cols-1 gap-5">
           <h2 class="text-4xl font-semibold">Main Course</h2>
           <div class="item border-2 rounded-md border-[#CA9C5E]">
             <div class="head bg-[#CA9C5E] font-semibold text-xl p-2">
               Healthy
             </div>
-            <div class="special text-[#CA9C5E] p-2 sm:flex items-center justify-between">
+            <div
+              class="special text-[#CA9C5E] p-2 sm:flex items-center justify-between"
+            >
               <div class="item-left">
                 <h2 class="text-2xl font-semibold">
                   Roasted Red Potatoes with Rosemary
@@ -327,9 +319,11 @@
             <div class="head bg-[#CA9C5E] font-semibold text-xl p-2">
               Recommended
             </div>
-            <div class="special text-[#CA9C5E] p-2 sm:flex items-center justify-between">
+            <div
+              class="special text-[#CA9C5E] p-2 sm:flex items-center justify-between"
+            >
               <div class="item-left">
-                <h2 class=" text-2xl font-semibold">
+                <h2 class="text-2xl font-semibold">
                   Grilled Pork with Preserved Lemons
                 </h2>
                 <h4 class="text-white">Pork / Lemons / Onions</h4>
@@ -339,6 +333,69 @@
           </div>
         </div>
       </div>
+    </section>
+    <section class="relative four">
+      <img
+        src="images/nong-vang-ERzsxOMcC7Q-unsplash-1.jpg"
+        class="w-full h-full brightness-[70%]"
+      />
+      <div
+        class="content-container text-white text-center flex flex-col items-center gap-3 lg:w-[45%] md:w-[55%] w-[85%] left-10 absolute md:left-[40%] sm:top-[5%] top-0 lg:left-[50%] border-2 border-white"
+      >
+        <h5 class="text-xl font-semibold">WE SAVED YOU A SEAT</h5>
+        <h1 class="sm:text-6xl text-4xl">Make an online Reservation</h1>
+        <p class="sm:text-xl text-lg">
+          When the going gets tough, the tough get grilling. Bringing heat to
+          your meat. No one can compete with our meat
+        </p>
+        <button
+          class="btn font-semibold border-t-2 border-b-2 border-[#CA9C5E] py-2 px-7 text-xl tracking-[3.5px]"
+        >
+          RESERVATION
+        </button>
+      </div>
+      <section class="underFour w-full h-fit bg-[#0b1517] text-white">
+        <div class="header flex items-center flex-col gap-5 py-5">
+          <h4 class="text-2xl tracking-widest">FOLLOW ALONG</h4>
+          <div class="lg:text-7xl text-6xl text-center font-bold">
+            <h1 class="w-[65%] m-auto flex items-center justify-center gap-3">
+              <img
+                src="images/noun_wavy-lines_1781282.png"
+                style="width: auto; height: 20px"
+                class="md:block hidden"
+              />@Wilma<img
+                src="images/noun_wavy-lines_1781282.png"
+                style="width: auto; height: 20px"
+                class="md:block hidden"
+              />
+            </h1>
+          </div>
+        </div>
+        <div
+          class="images xl:w-[1100px] lg:w-[900px] m-auto flex flex-row flex-wrap items-center justify-between"
+        >
+          <img
+            src="images/louis-hansel-shotsoflouis-KQR3ENYfrpw-unsplash-768x771.jpg "
+            class="sm:w-[340px] sm:h-[400px] w-[50%] h-[50%] flex-1 sm:m-2 m-4"
+          /><img
+            src="images/wesual-click-SrX3-GldyL0-unsplash-768x511.jpg"
+            class="sm:w-[500px] sm:h-[400px] w-[50%] h-[50%] flex-1 sm:m-2 m-4"
+          /><img
+            src="images/bundo-kim-Pb9bUzH1nD8-unsplash-768x1152.jpg"
+            class="sm:w-[230px] sm:h-[340px] w-[50%] h-[50%] flex-1 sm:m-2 m-4"
+          />
+          <img
+            src="images/alasdair-elmes-ULHxWq8reao-unsplash-768x512.jpg"
+            class="sm:w-[500px] sm:h-[340px] w-[50%] h-[50%] flex-1 sm:m-2 m-4"
+          /><img
+            src="images/eiliv-sonas-aceron-cWqxHoa3zXk-unsplash-768x1152.jpg"
+            class="sm:w-[230px] sm:h-[340px] w-[50%] h-[50%] flex-1 sm:m-2 m-4"
+          /><img
+            src="images/stephan-valentin-l2viCaR3JUo-unsplash-768x768.jpg"
+            class="sm:w-[340px] sm:h-[450px] w-[50%] h-[50%] flex-1 sm:m-2 m-4"
+          />
+        </div>
+      </section>
     </section>
     <script src="./script.js"></script>
   </body>
