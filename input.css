@@ -27,11 +27,10 @@
   .popIn {
     @apply opacity-100 blur-none scale-100;
   }
-  .myBlur
-  {
-    @apply backdrop-blur-md sticky top-0;
+  .myBlur {
+    @apply backdrop-blur-[10px] z-[100] fixed;
   }
-  .selectEdit{
-    @apply selection:text-white selection:bg-black
+  .selectEdit {
+    @apply selection:text-white selection:bg-black;
   }
 }
