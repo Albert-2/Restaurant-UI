@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="input.css" />
     <title>Best Restaurants in Mumbai - Wilma Restaurants |</title>
   </head>
-  <body class="overflow-x-hidden">
+  <body class="overflow-x-hidden selectEdit">
     <header
       class="border-[10px] border-[#CA9C5E] text-white w-full h-[100vh] grayscale-[20%] brightness-[70%]"
       style="background: url(images/mainBack.avif) center/cover no-repeat fixed"
@@ -100,7 +100,7 @@
         meat. No one can compete with our meat
       </p>
       <button
-        class="btn font-semibold border-t-2 border-b-2 border-[#CA9C5E] py-2 px-7 text-xl"
+        class="btn border-t-2 border-b-2 border-[#CA9C5E] py-2 px-7 text-xl"
       >
         OUR MENUS
       </button>
@@ -117,14 +117,14 @@
       class="w-[100vw] h-fit bg-[#0b1517] flex flex-col items-center justify-center py-10 relative"
     >
       <div
-        class="second flex md:flex-row flex-col md:items-center items-start w-[95%] lg:max-w-[55%] lg:min-w-[1000px] m-auto"
+        class="second flex md:flex-row flex-col md:items-center items-start w-[95%] lg:max-w-[55%] lg:min-w-[1000px] m-auto overflow-x-hidden"
       >
         <img
           src="images/volkan-vardar-1H30uRC1plc-unsplash-678x1024.jpg"
           class="image-container md:w-[400px] md:h-[700px] flex-1 myHidden"
         />
         <div
-          class="content-container z-20 md:w-[50%] text-white flex flex-col items-start gap-5 px-7 md:py-0 py-5"
+          class="content-container z-30 md:w-[50%] text-white flex flex-col items-start gap-5 px-7 md:py-0 py-5 myHiddenRight"
         >
           <h3 class="text-xl tracking-[1.5px]">
             YOUR SPECIAL OCCASION DESTINATION
@@ -154,10 +154,10 @@
             VIEW MENUS
           </button>
         </div>
-        <div class="md:relative relative flex-1">
+        <div class="md:relative relative flex-1 overflow-x-hidden">
           <img
             src="images/image-from-rawpixel-id-2353079-png-785x1024.png"
-            class="image-container lg:w-[650px] md:w-[500px] w-[95%] md:h-[750px] h-[750px]"
+            class="image-container lg:w-[650px] md:w-[500px] w-[95%] md:h-[750px] h-[750px] myHiddenRight"
           />
           <img
             src="images/image-from-rawpixel-id-2822722-png-874x1024.png"
@@ -170,7 +170,7 @@
         />
       </div>
     </section>
-    <section class="menu bg-[#0b1517] text-white min-w-[65%]">
+    <section class="menu bg-[#0b1517] text-white min-w-[65%] w-[100vw]">
       <h4 class="lg:text-xl text-lg text-center tracking-[3.5px]">
         MAKE FOOD, NOT WAR
       </h4>
@@ -188,7 +188,7 @@
         </h1>
       </div>
       <div
-        class="menu-container flex lg:flex-row flex-col items-start justify-center xl:w-[1200px] lg:w-[98%] m-auto"
+        class="menu-container flex lg:flex-row flex-col items-start justify-center xl:w-[1200px] lg:w-[98%] m-auto overflow-x-hidden"
       >
         <div
           class="left mx-auto w-[95%] flex-1 p-5 grid grid-cols-1 gap-5 myHidden"
@@ -257,7 +257,9 @@
             <span class="font-bold text-xl text">&dollar;20</span>
           </div>
         </div>
-        <div class="right mx-auto w-[95%] flex-1 p-5 grid grid-cols-1 gap-5">
+        <div
+          class="right mx-auto w-[95%] flex-1 p-5 grid grid-cols-1 gap-5 myHiddenRight"
+        >
           <h2 class="text-4xl font-semibold">Main Course</h2>
           <div class="item border-2 rounded-md border-[#CA9C5E]">
             <div class="head bg-[#CA9C5E] font-semibold text-xl p-2">
@@ -339,8 +341,8 @@
         </div>
       </div>
     </section>
-    <section class="relative four">
-      <div class="relative">
+    <section class="relative four w-[100vw]">
+      <div class="relative overflow-x-hidden">
         <img
           src="images/nong-vang-ERzsxOMcC7Q-unsplash-1.jpg"
           class="min-w-full sm:h-full h-[45vh] brightness-[70%]"
@@ -351,7 +353,7 @@
         />
         <img
           src="images/home-leaf-left.png"
-          class="absolute z-50 top-[60%] right-0 w-[20%] sm:block hidden"
+          class="absolute z-50 top-[60%] right-0 w-[20%] sm:block hidden myHiddenRight"
         />
       </div>
       <div
