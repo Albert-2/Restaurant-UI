@@ -46,18 +46,24 @@ const demo3 = document.querySelectorAll(".popOut");
 demo3.forEach((temp) => animation3.observe(temp));
 
 const options = {};
+const nav = document.querySelector(".navigation");
+const btn = document.querySelector(".btn");
 
 const animation4 = new IntersectionObserver(function (entries, animation4) {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
-      document.querySelector(".navigation").classList.remove("myBlur");
-      document.querySelector(".navigation").classList.add("absolute");
+      nav.classList.remove("myBlur");
+      nav.classList.add("absolute");
+      btn.classList.add("absolute");
+      btn.classList.remove("fixed");
     } else {
-      document.querySelector(".navigation").classList.add("myBlur");
-      document.querySelector(".navigation").classList.remove("absolute");
+      nav.classList.add("myBlur");
+      nav.classList.remove("absolute");
+      btn.classList.remove("absolute");
+      btn.classList.add("fixed");
     }
   });
 });
 
-const temp = document.querySelector(".demo");
+const temp = document.querySelector(".main-content");
 animation4.observe(temp);

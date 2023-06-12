@@ -33,4 +33,7 @@
   .selectEdit {
     @apply selection:text-white selection:bg-black;
   }
+  .centered {
+    @apply absolute m-auto inset-0;
+  }
 }
