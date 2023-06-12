@@ -15,6 +15,12 @@
   .myShow {
     @apply opacity-100 blur-none translate-x-0;
   }
+  .myHiddenRight {
+    @apply opacity-0 blur-[5px] translate-x-full transition-all duration-[2s] overflow-x-hidden;
+  }
+  .myShowRight {
+    @apply opacity-100 blur-none translate-x-0 relative;
+  }
   .popOut {
     @apply opacity-0 blur-[5px] transition-all duration-[2s] scale-0;
   }
