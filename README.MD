@@ -37,7 +37,18 @@ To see the live preview of project
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+### Desktop View
+![image](https://github.com/Albert-2/Restaurant-UI/assets/90373859/309542b3-7d7a-4bd1-8c98-71f75e84099f)
+![image](https://github.com/Albert-2/Restaurant-UI/assets/90373859/333930bc-1b1b-44ab-ba83-e3ccd3fa95b6)
+![image](https://github.com/Albert-2/Restaurant-UI/assets/90373859/3f4b5a84-ddfe-46ba-b9ca-20495860090d)
+![image](https://github.com/Albert-2/Restaurant-UI/assets/90373859/e1413355-0402-436f-94f5-05481c2f19e2)
+
+### Mobile View
+![image](https://github.com/Albert-2/Restaurant-UI/assets/90373859/859cb1ff-b1d8-4bb3-9dc0-599f01985624)
+![image](https://github.com/Albert-2/Restaurant-UI/assets/90373859/f48625bd-fc48-4151-83f8-73ef8e9b949d)
+![image](https://github.com/Albert-2/Restaurant-UI/assets/90373859/e2102efe-d279-4ed0-980c-f5d6e0abddcc)
+![image](https://github.com/Albert-2/Restaurant-UI/assets/90373859/64805f61-d6e3-4337-8abe-4575b9c260a7)
+
 
 
 ## Contributing
