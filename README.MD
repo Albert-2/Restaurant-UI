@@ -33,7 +33,8 @@ To clone this project follow the steps
 
 ## 🔗 Links
 
-To see the live preview of project
+To see the <a src="https://albert-2.github.io/Restaurant-UI/" target="_blank">live preview</a> of project
+
 
 ## Screenshots
 
